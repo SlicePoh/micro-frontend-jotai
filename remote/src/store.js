@@ -1,6 +1,6 @@
 import { atom, useAtom } from "jotai";
 
-const countAtom = atom (200)
+const countAtom = atom (10)
 
 export const useCount = () => useAtom(countAtom)
 

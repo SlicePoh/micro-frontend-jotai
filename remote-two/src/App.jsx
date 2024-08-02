@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
-import { Navbar } from "./components/Navbar"
+//import { Navbar } from "./components/Navbar"
 import { Home } from "./pages/Home"
 import { TextReveal } from "./pages/Text"
 import { Modal } from "./pages/Modal"
@@ -11,7 +11,6 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar/>
         <Routes>
           <Route exact path="/" element={<Home/>}/>
           <Route exact path="/modal" element={<Modal/>}/>
